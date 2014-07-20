@@ -1199,6 +1199,14 @@ button.small3, .button.small3 {
 	font-size: 0.8rem;
 	background-color:#666;
 }
+button.small4, .button.small4 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: -1.0625rem;!important
+	padding-left: 10px;
+	font-size: 0.8rem;
+	background-color:#ccc;
+}
   button.tiny, .button.tiny {
     padding-top: 0.625rem;
     padding-right: 1.25rem;

@@ -35,7 +35,7 @@
 	text-shadow: -3px 3px 2px rgba(150, 150, 150, 0.4);
 	}
 .hugeText2 {
-	font-size: 2.4em;
+	font-size: 1.4em;
 	color: #B3B5B5;
 	}	 
 .grey1 {
@@ -123,6 +123,9 @@
       background-color: #b9242e; }
 .button.color1b {
       background-color: #b9242e; }
+.button.color6 {
+	background-color: #CCCCCC;
+}
 .button.color2:hover, .button.color2:focus, .button[color2]:hover, .button[color2]:focus {
       background-color: #3fa64b; }	 
 .button.color3:hover, .button.color3:focus, .button[color3]:hover, .button[color3]:focus {
@@ -130,7 +133,9 @@
 .button.color4:hover, .button.color4:focus, .button[color4]:hover, .button[color4]:focus {
       background-color: #585a59; }
 .button.color5:hover, .button.color5:focus, .button[color5]:hover, .button[color5]:focus {
-      background-color: #191919; }	  	  	   
+      background-color: #191919; }	
+.button.color6:hover, .button.color6:focus, .button[color6]:hover, .button[color6]:focus {
+      background-color: #191919; }  	  	   
 	  
 .small2 {
 	height: 3em;
@@ -306,6 +311,22 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 	
 }
 .navi3Item a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	
+}
+
+.navi4Item {
+}
+.navi4Item a:link {
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	
+	
+}
+.navi4Item a:visited {
+	text-decoration: none;
+	
+}
+.navi4Item a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
 	
 }
