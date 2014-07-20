@@ -37,7 +37,10 @@
 .hugeText2 {
 	font-size: 1.4em;
 	color: #B3B5B5;
-	}	 
+	}
+.whiteText {
+	color: #fff;!important
+}			 
 .grey1 {
 	background-color: #e9eaea;!important
 }
@@ -46,6 +49,9 @@
 }	
 .grey3 {
 	background-color: #adb0af;!important
+}
+.green1 {
+	background-color: #3fa64b;!important
 }	
 .pageTitle {
 	font-weight: 800;
@@ -101,7 +107,13 @@
 .breadcrumb a:active {
 	color: #000;
 	text-decoration: none;
-}	
+}
+.quote2 {
+	font-weight: 800;
+	color: #fff;
+	padding: 0px 0 10px 0;
+	text-align: center;
+	}	
 .quote {
 	font-weight: 800;
 	font-size: 1.2em;
@@ -336,5 +348,14 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 	width: 100%;
 	color: #fff;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 800;
+}
+.spacerA {
+	height: 7px;
+}
+.spacerB {
+	height: 2px;
+}
+.spacerC {
+	height: 0px;
 }
