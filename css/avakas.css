@@ -331,3 +331,10 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 	
 }
 /*------------------------------ M/Best Nav end ----------------------------*/
+.topStrip {
+	background-color: #b9242e;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+}
