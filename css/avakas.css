@@ -1,0 +1,312 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li {
+    color: #333333;
+	text-align: center;
+	 }
+.button.small {
+	width: 100%;
+	height: 4em;!important
+}	 
+.smallText1 {
+	font-size: 0.7em;
+	}
+.smallText2 {
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #666;
+	}	
+.text800 {
+	font-weight: 800;
+	}	
+.white {
+	color: #fff;!important
+	}
+.grey {
+	color: #ABADAD;
+!important
+	}	
+.centered {
+    text-align: center;
+	 }
+.hugeText {
+	font-size: 3em;
+	text-shadow: -3px 3px 2px rgba(150, 150, 150, 0.4);
+	}
+.hugeText2 {
+	font-size: 2.4em;
+	color: #B3B5B5;
+	}	 
+.grey1 {
+	background-color: #e9eaea;!important
+}
+.grey2 {
+	background-color: #d6d8d7;!important
+}	
+.grey3 {
+	background-color: #adb0af;!important
+}	
+.pageTitle {
+	font-weight: 800;
+	font-size: 1.5em;
+	color: #000;
+	padding: 5px 0 0 0;
+	}
+.pageTitle2 {
+	font-weight: 800;
+	font-size: 1.1em;
+	color: #000;
+	padding: 5px 0 0 0;
+	}
+
+.section {
+	margin-bottom: -18px;
+!important
+; 	line-height: 1;	
+}
+.vertical-nav {
+	margin-top: -18px;!important
+	
+}
+.button-group {
+	padding-top: 40px;
+!important
+	
+}
+.mainPageImage {
+	padding: 0 0.5rem 0 0.5rem;
+!important
+}
+.mainPageImage2 {
+	margin: 0 -1.650rem 0 -1.650rem;
+!important
+}
+.breadcrumb {
+	color: #666;
+	font-size: 0.8em;
+}
+.breadcrumb a {
+	color: #666;
+	text-decoration: none;
+}
+.breadcrumb a:visited {
+	color: #666;
+	text-decoration: none;
+}
+.breadcrumb a:hover{
+	color: #007D26;
+	text-decoration: none;
+}
+.breadcrumb a:active {
+	color: #000;
+	text-decoration: none;
+}	
+.quote {
+	font-weight: 800;
+	font-size: 1.2em;
+	color: #666;
+	padding: 0px 0 10px 0;
+	text-align: center;
+	}
+.author {
+	font-weight: 300;
+	font-size: 1.2em;
+	font-style: italic;
+	color: #666;
+	padding: 0px 0 10px 0;
+	text-align: center;
+	}
+.button.color1:hover, .button.color1:focus, .button[color1]:hover, .button[color1]:focus {
+      background-color: #b9242e; }
+.button.color1b:hover, .button.color1:focus, .button[color1]:hover, .button[color1]:focus {
+      background-color: #b9242e; }
+.button.color1b {
+      background-color: #b9242e; }
+.button.color2:hover, .button.color2:focus, .button[color2]:hover, .button[color2]:focus {
+      background-color: #3fa64b; }	 
+.button.color3:hover, .button.color3:focus, .button[color3]:hover, .button[color3]:focus {
+      background-color: #00a2d9; }
+.button.color4:hover, .button.color4:focus, .button[color4]:hover, .button[color4]:focus {
+      background-color: #585a59; }
+.button.color5:hover, .button.color5:focus, .button[color5]:hover, .button[color5]:focus {
+      background-color: #191919; }	  	  	   
+	  
+.small2 {
+	height: 3em;
+	width: 100%;
+	font-size: 200%;!important
+}
+.subnav {
+	margin: 0 -1rem 0 -1rem;
+	}
+.subnav2 {
+	margin: 0 -rem 0 0rem;
+	float: left;
+	width: 48%;
+	}
+.subnavbutton {
+	background-color: #CCCCCC;
+	width: 48%;
+	float: left;
+	margin: 0 0 0.3rem 1.5%;
+	border-style: solid;
+	border-width: 0px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	line-height: normal;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	display: inline-block;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1.0625rem;
+	padding-left: 2rem;
+	font-size: 1.5em;
+	background-color: #666666;
+	border-color: #007095;
+	color: white;
+	transition: background-color 300ms ease-out;
+	}
+subnavbutton:link,subnavbutton:hover, subnavbutton:focus, .subnavbutton:hover, .subnavbutton:focus {
+     }
+subnavbutton:link, subnavbutton:hover, subnavbutton:focus, .subnavbutton:hover, .subnavbutton:focus {
+    color: white; }
+	
+.subnavbutton.color1:hover, .subnavbutton.color1:focus, .subnavbutton[color1]:hover, .subnavbutton[color1]:focus {
+      background-color: #b9242e; }
+.subnavbutton.color1b:hover, .subnavbutton.color1:focus, .subnavbutton[color1]:hover, .subnavbutton[color1]:focus {
+      background-color: #b9242e; }
+.subnavbutton.color1b {
+      background-color: #b9242e; }
+.subnavbutton.color2:hover, .subnavbutton.color2:focus, .subnavbutton[color2]:hover, .subnavbutton[color2]:focus {
+      background-color: #3fa64b; }	 
+.subnavbutton.color3:hover, .subnavbutton.color3:focus, .subnavbutton[color3]:hover, .subnavbutton[color3]:focus {
+      background-color: #00a2d9; }
+.subnavbutton.color4:hover, .subnavbutton.color4:focus, .subnavbutton[color4]:hover, .subnavbutton[color4]:focus {
+      background-color: #585a59; }
+.subnavbutton.color5:hover, .subnavbutton.color5:focus, .subnavbutton[color5]:hover, .subnavbutton[color5]:focus {
+      background-color: #191919; }	  	  	   
+	  
+.subnavbutton2 {
+	background-color: #CCCCCC;
+	width: 100%;
+	float: left;
+	margin: 0 0 0.3rem 1.5%;
+	border-style: solid;
+	border-width: 0px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	line-height: normal;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	display: inline-block;
+	padding-top: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.5rem;
+	font-size: 1.2em;
+	background-color: #666666;
+	border-color: #007095;
+	color: white;
+	transition: background-color 300ms ease-out;
+	}
+subnavbutton2:link,subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hover, .subnavbutton2:focus {
+     }
+subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hover, .subnavbutton2:focus {
+    color: white; }
+	
+.subnavbutton2.color1:hover, .subnavbutton2.color1:focus, .subnavbutton2[color1]:hover, .subnavbutton2[color1]:focus {
+      background-color: #b9242e; }
+.subnavbutton2.color2:hover, .subnavbutton2.color2:focus, .subnavbutton2[color2]:hover, .subnavbutton2[color2]:focus {
+      background-color: #3fa64b; }	 
+.subnavbutton2.color3:hover, .subnavbutton2.color3:focus, .subnavbutton2[color3]:hover, .subnavbutton2[color3]:focus {
+      background-color: #00a2d9; }
+.subnavbutton2.color4:hover, .subnavbutton2.color4:focus, .subnavbutton2[color4]:hover, .subnavbutton2[color4]:focus {
+      background-color: #585a59; }
+.subnavbutton2.color5:hover, .subnavbutton2.color5:focus, .subnavbutton2[color5]:hover, .subnavbutton2[color5]:focus {
+      background-color: #191919; }	  	  	   
+	    
+	  
+.mainText {	
+	padding: 0 -1rem 0 -1rem ;!important	
+	}
+.subnavtext {
+	color: #fff;
+	text-decoration:none
+	}
+.subnavtext  a {
+	color: #fff;
+	text-decoration: none;
+}
+.subnavtext  a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.subnavtext  a:hover{
+	color: #007D26;
+	text-decoration: none;
+}
+.subnavtext  a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+/*------------------------------ M/Best Nav ----------------------------*/
+
+.navi1Item {
+}
+.navi1Item a:link {
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	
+	
+}
+.navi1Item a:visited {
+	text-decoration: none;
+	
+}
+.navi1Item a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	
+		
+}
+.navi2Item {
+}
+.navi2Item a:link {
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	
+}
+.navi2Item a:visited {
+	text-decoration: none;
+	
+}
+.navi2Item a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	
+}
+
+
+.navi3Item {
+}
+.navi3Item a:link {
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	
+	
+}
+.navi3Item a:visited {
+	text-decoration: none;
+	
+}
+.navi3Item a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	
+}
+/*------------------------------ M/Best Nav end ----------------------------*/
