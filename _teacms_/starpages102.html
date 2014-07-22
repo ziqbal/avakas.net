@@ -1,0 +1,36 @@
+<?php
+
+
+$embed=templateVarDataProp('embed');
+$newWidth = 420;
+$newHeight = 250;
+
+$embed = preg_replace(
+   array('/width="\d+"/i', '/height="\d+"/i'),
+   array(sprintf('width="%d"', $newWidth), sprintf('height="%d"', $newHeight)),
+   $embed);
+
+
+?>
+
+
+<div id="<?=$sid?>Container">
+	<?=$embed?>
+<div id='<?=$sid?>Caption'><?=templateVarDataProp('_displaytext_')?></div>
+</div>
+
+
+<style>
+
+#<?=$sid?>Container{
+	text-align: center;
+}
+
+#<?=$sid?>Caption{
+	font-size: smaller;
+	font-weight: lighter;	
+	margin-bottom: 10px;
+}
+
+
+</style>
