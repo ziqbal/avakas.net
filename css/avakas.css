@@ -11,6 +11,8 @@
 }	 
 .smallText1 {
 	font-size: 0.7em;
+	text-align: right;
+	
 	}
 .smallText2 {
 	font-size: 0.9em;
@@ -49,6 +51,9 @@
 }	
 .grey3 {
 	background-color: #adb0af;!important
+}
+.grey4 {
+	background-color: #585a59;!important
 }
 .green1 {
 	background-color: #3fa64b;!important
@@ -143,11 +148,42 @@
 	padding: 0px 0 10px 0;
 	text-align: center;
 	}
+.quote3 {
+	font-weight: 800;
+	font-size: 2em;
+	color: #fff;
+	padding: 0px 0 10px 0;
+	text-align: center;
+	}
+.quote3 a:link {
+	color: #fff;
+	text-decoration: none;
+}
+.quote3 a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.quote3 a:hover {
+	color: #00a2d9;
+	text-decoration: none;
+}
+.quote3 a:active {
+	color: #00a2d9;
+	text-decoration: none;
+}
+
 .author {
 	font-weight: 300;
 	font-size: 1.2em;
 	font-style: italic;
 	color: #666;
+	padding: 0px 0 10px 0;
+	text-align: center;
+	}
+.author3 {
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #fff;
 	padding: 0px 0 10px 0;
 	text-align: center;
 	}
@@ -395,3 +431,8 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 .spacerE {
 	height: 42px;
 }
+.pageContactInfo {
+	float: right;
+	text-align: right;
+	padding-right: 20px;
+	}
