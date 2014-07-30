@@ -85,9 +85,31 @@
 !important
 }
 .mainPageImage2 {
-	margin: 0 -1.650rem 0 -1.650rem;
+	margin: 0 0rem 0 -1.650rem;
 !important
 }
+.homepageImage {	
+	margin: 0 0rem 0 -1.650rem;!important
+}
+.homepageImage2 {	
+	margin: 0 0rem 0 -4.850rem;!important
+}
+.homepageMargin {
+	margin: 0 0rem 0 -1.650rem;!important
+	
+}
+.homepagebutton {
+	margin-top: -22px;!important
+	}
+.homepagebutton2 {
+	margin-top: -18px;!important
+	}
+.homepagebutton3 {
+	margin-top: -5px;!important
+	}
+.homepagebutton4 {
+	margin-top: 4px;!important
+	}			
 .breadcrumb {
 	color: #666;
 	font-size: 0.8em;
@@ -135,6 +157,14 @@
       background-color: #b9242e; }
 .button.color1b {
       background-color: #b9242e; }
+.button.color1c {
+      background-color: #3fa64b; }
+.button.color1d {
+      background-color: #00a2d9; }
+.button.color1e {
+      background-color: #585a59; }
+.button.color1f {
+      background-color: #191919; }
 .button.color6 {
 	background-color: #CCCCCC;
 }
@@ -358,4 +388,10 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 }
 .spacerC {
 	height: 0px;
+}
+.spacerD {
+	height: 5px;
+}
+.spacerE {
+	height: 42px;
 }
