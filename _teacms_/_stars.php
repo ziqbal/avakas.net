@@ -17,5 +17,9 @@ $__stars[]=array(202,"markers/circle-2.png","Page Ad",1,array("maintitle","fuid"
 $__stars[]=array(203,"markers/circle-3.png","Homepage Banner",1,array("maintitle","fuid")); 
 $__stars[]=array(204,"markers/circle-4.png","Homepage Side",1,array("maintitle","fuid")); 
 
+$__stars[]=array(301,"markers/square-1.png","Top Text",1,array("maintitle")); 
+$__stars[]=array(302,"markers/square-2.png","Homepage Quote Text",1,array("maintitle","shortdescription")); 
+$__stars[]=array(303,"markers/square-3.png","Page Quote Text",1,array("maintitle","shortdescription")); 
+
 
 

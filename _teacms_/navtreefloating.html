@@ -1,44 +1,75 @@
 <?php
 
-$level=intval(templateVarDataProp('_level_'));
 
-$level=$level-$_baseLevel;
+$level = intval( templateVarDataProp( '_level_' ) ) - $_baseLevel ;
 
-if($setLevel!=-1){
-	if($level!=$setLevel) $level=-1;
-}
+$id=templateVarDataProp('id');
+$parent=templateVarDataProp('_parent_');
 
-$classes="";
-//($level==0)?$class.=''
+$parentClass="{$cid}Parent{$parent}";
+$childClass= "{$cid}Parent-{$id}"; 
+
 ?>
 
+<script>
 
-<?php if($level==1){ ?>
-<div class="navi1Item <?=$level?>">
+$( function( ) {
+
+
+	<?php if( intval( templateVarDataProp( '_navgroup_' ) ) == 0 ) { ?>
+
+		$( ".<?=$sid?>Container" ).hide( );
+
+	<?php } ?>
+
+	<?php if( intval( templateVarDataProp( '_skip_' ) ) == 1 ) { ?>
+
+		$( ".<?=$sid?>Link" ).click( function( event ) {
+
+			$( ".<?=$childClass?>" ).show( );
+			event.preventDefault( );
+			return( false );
+
+		});
+
+	<?php } ?>
+
+
+
+});
+
+</script>
+
+<?php if( $level == 1 ) { ?>
+
+<div class="navi1Item <?=$sid?>Container <?=$parentClass?> <?=$id?>">
 <section class="section">
 <h5 class="title">
-<a href="<?=templateVarDataProp('_url_')?>" class="small button color1b"><?=templateVarDataProp('_displaytext_')?></a>
+<a href="<?=templateVarDataProp('_url_')?>" class="small button color1b <?=$sid?>Link"><?=templateVarDataProp('_displaytext_')?></a>
 </h5>
 </section>
 </div>
+
 <?php } ?>
 
 
-<?php if($level==2){ ?>
-<div class="navi2Item <?=$level?>">
+<?php if( $level == 2 ) { ?>
+
+<div class="navi2Item <?=$sid?>Container <?=$parentClass?>">
 <section class="section">
 <h5 class="title">
-<a href="<?=templateVarDataProp('_url_')?>" class="small2 button color1b"><?=templateVarDataProp('_displaytext_')?></a>
+<a href="<?=templateVarDataProp('_url_')?>" class="small2 button color1b <?=$sid?>Link"><?=templateVarDataProp('_displaytext_')?></a>
 </h5>
 </section>
 </div>
+
 <?php } ?>
 
-<?php if($level==3){ ?>
-<div class="navi2Item <?=$level?>">
+<?php if( $level == 3 ) { ?>
+<div class="navi2Item <?=$sid?>Container <?=$parentClass?>">
 <section class="section">
 <h5 class="title">
-<a href="<?=templateVarDataProp('_url_')?>" class="small2 small3 button color1"><?=templateVarDataProp('_displaytext_')?></a>
+<a href="<?=templateVarDataProp('_url_')?>" class="small2 small3 button color1 <?=$sid?>Link"><?=templateVarDataProp('_displaytext_')?></a>
 </h5>
 </section>
 </div>
