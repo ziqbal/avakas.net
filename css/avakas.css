@@ -75,6 +75,7 @@
 	margin-bottom: -18px;
 !important
 ; 	line-height: 1;	
+
 }
 .vertical-nav {
 	margin-top: -18px;!important
@@ -217,7 +218,7 @@
       background-color: #191919; }  	  	   
 	  
 .small2 {
-	height: 3em;
+	height: 100%; /*was 3em before*/
 	width: 100%;
 	font-size: 200%;!important
 }
