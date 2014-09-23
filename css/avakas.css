@@ -145,8 +145,9 @@
 	font-weight: 800;
 	font-size: 1.2em;
 	color: #666;
-	padding: 0px 0 10px 0;
+	padding: 0 0 10px 0;
 	text-align: center;
+	margin-top: -10px;
 	}
 .quote3 {
 	font-weight: 800;
@@ -436,3 +437,54 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 	text-align: right;
 	padding-right: 20px;
 	}
+	
+	
+/*------------------------------ RIGHT NAV DIVIDERS ----------------------------*/	
+.period1, .period2, .period3, .period4, .period5, .period6, .period7, .period8, .period9  {
+	padding-top: 25px;
+	background-attachment: top center;
+	background-position-x: center;
+	background-position-y: top;
+	background-repeat: no-repeat;
+}
+.period1 {
+	background-image: url(../slices/period1.png);
+}
+.period2 {
+	background-image: url(../slices/period2.png);
+}
+.period3 {
+	background-image: url(../slices/period3.png);
+}
+.period4 {
+	background-image: url(../slices/period4.png);
+}
+.period4 {
+	background-image: url(../slices/period4.png);
+}
+.period5 {
+	background-image: url(../slices/period5.png);
+}
+.period6 {
+	background-image: url(../slices/period6.png);
+}
+.period7 {
+	background-image: url(../slices/period7.png);
+}
+.period8 {
+	background-image: url(../slices/period8.png);
+}
+.period9 {
+	background-image: url(../slices/period9.png);
+}
+
+/*------------------------------ LEFT MAIN NAV BUTTON BACKGROUNDS ----------------------------*/	
+.BGred {
+	background-color: #b9242e!important;
+}
+.BGgreen {
+	background-color: #43ac6a!important;
+}
+.BGblack {
+	background-color: #000!important;
+}
