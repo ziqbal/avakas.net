@@ -12,8 +12,25 @@
 .smallText1 {
 	font-size: 0.7em;
 	text-align: right;
-	
+	color: #333;
+	text-decoration: none;
 	}
+.smallText1 a:link {
+	color: #393;
+	text-decoration: none;
+}
+.smallText1 a:visited {
+	color: #000;
+	text-decoration: none;
+}
+.smallText1 a:hover{
+	color: #007D26;
+	text-decoration: none;
+}
+.smallText1 a:active {
+	color: #000;
+	text-decoration: none;
+}	
 .smallText2 {
 	font-size: 0.9em;
 	font-weight: 400;
@@ -32,10 +49,23 @@
 .centered {
     text-align: center;
 	 }
-.hugeText {
+.text800.white.hugeText {
 	font-size: 3em;
 	text-shadow: -3px 3px 2px rgba(150, 150, 150, 0.4);
+	text-decoration:none;
 	}
+.text800.white.hugeText a {
+	text-decoration: none;
+}
+.text800.white.hugeText a:visited {
+	text-decoration: none;
+}
+.text800.white.hugeText a:hover{
+	text-decoration: none;
+}
+.text800.white.hugeText a:active {
+	text-decoration: none;
+}	
 .hugeText2 {
 	font-size: 1.4em;
 	color: #B3B5B5;
@@ -111,7 +141,9 @@
 	margin-top: -18px;!important
 	}
 .homepagebutton3 {
-	margin-top: -5px;!important
+	margin-top: 0px;
+!important
+; 		margin-bottom: 4px;
 	}
 .homepagebutton4 {
 	margin-top: 4px;!important
@@ -349,6 +381,7 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 
 .navi1Item {
 }
+
 .navi1Item a:link {
 	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 	
@@ -428,10 +461,10 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 	height: 0px;
 }
 .spacerD {
-	height: 5px;
+	height: 6px;
 }
 .spacerE {
-	height: 43px;
+	height: 37px;
 }
 .spacerF {
 	height: 1px;
@@ -492,4 +525,55 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 }
 .BGblack {
 	background-color: #000!important;
+}
+
+.spacerHomeB {
+	height: 22px;
+	}
+.spacerG {
+	height: 5px;
+	}
+
+
+.linkA {
+	color: #666;
+	text-decoration:none
+	}
+.linkA   a {
+	color: #666;
+	text-decoration: none;
+}
+.linkA   a:visited {
+	color: #666;
+	text-decoration: none;
+}
+.linkA   a:hover{
+	color: #43AC6A;
+	text-decoration: none;
+}
+.linkA   a:active {
+	color: #B9242E;
+	text-decoration: none;
+}
+
+
+a {
+	color: #666;
+	text-decoration: none;
+	font-weight: 800;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+	font-weight: 800;
+}
+a:hover{
+	color: #43AC6A;
+	text-decoration: none;
+	font-weight: 800;
+}
+a:active {
+	color: #B9242E;
+	text-decoration: none;
+	font-weight: 800;
 }

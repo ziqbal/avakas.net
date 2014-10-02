@@ -1,20 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-<!-- Meta -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="Author"       	content="Embryo Design"/>
-<meta name="Date"         	content="September 2014"/>
-<meta name="Category"       content="company"/>
-<meta name="Subject"      	content="Greece, website"/>
-<meta name="Keywords"     	content="Άβακας, Avakas.net, Avakas, καθηγητής, πολυτεχνείο, μάθημα, εξάμηνο"/>
-<meta name="Description"  	content="Ο Άβακας αποτελείται από έμπειρους ανεξάρτητους ελεύθερους επαγγελματίες καθηγητές. Είμαστε στη διάθεσή σας. Επικοινωνήστε μαζί μας για περισσότερες πληροφορίες σχετικά με τα μαθήματα/σχολές που σας ενδιαφέρουν, για να γνωρίσετε το δίκτυό μας ή για μια επικείμενη συνεργασία... 6932 322803 (Q-Wind) | 6937 114637 (What's up - Cosmote) | 6986 205464 (CU-Vodafone) | 6986 205464 (WhatsApp App) | Avakas.net (Facebook) | Avakas.net (Skype) "/>
-<meta name="Language"     	content="el" />
 <title>AVAKAS.net  |  Δίκτυο εκπαίδευσης</title>
 <link rel="stylesheet" href="css/avakas.css" />
 <link rel="stylesheet" href="css/foundation.css" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,400italic,300italic,800italic&subset=latin,greek' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,800,300,400italic,300italic,800italic&subset=latin,greek' rel='stylesheet' type='text/css'>
 <script src="js/vendor/modernizr.js"></script>
 <script src="js/vendor/jquery.js"></script> 
 <!--------- Google Analytics ---------------->
@@ -28,8 +20,6 @@
   ga('send', 'pageview');
 
 </script>
-<!--------- Add This Control Script ---------------->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-542dbbc439a3fbf5"></script>
 </head>
 <body>
 <div class="row"> <br/>
@@ -114,7 +104,6 @@
 
 <p>Είμαστε στη διάθεσή σας. Επικοινωνήστε μαζί μας για περισσότερες πληροφορίες σχετικά με τα μαθήματα/σχολές που σας ενδιαφέρουν, για να γνωρίσετε το δίκτυό μας ή για μια επικείμενη συνεργασία...</p>
 
-<div class="large-6 columns contactmarginsL">
 <div class="panel grey4">     
       <div class="quote3">6932 322803</div>
       <div class="author3"> (Q-Wind)</div>  
@@ -129,11 +118,10 @@
       <div class="quote3">6986 205464</div>
       <div class="author3"> (CU-Vodafone)</div>  
     </div>
-</div>
-<div class="large-6 columns contactmarginsR">    
+    
 <div class="panel grey4">     
       <div class="quote3">6986 205464</div>
-      <div class="author3"> (WhatsApp App)</div>  
+      <div class="author3"> (WhatsApp Application)</div>  
     </div>     
 
 <div class="panel grey4">     
@@ -145,7 +133,7 @@
       <div class="quote3">Avakas.net</div>
       <div class="author3"> (Skype)</div>  
     </div>     
- </div>                 
+                  
         <!--{shortdescription-->
 
         
@@ -229,9 +217,7 @@
       <div class="pageContactInfo">
       Τ: 6932 322803<br>
         Ε: <a href="mailto:info@avakas.net" title="Email Avakas" target="_blank">info@avakas.net</a><br>
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_horizontal_follow_toolbox"></div>
-<br><br>
+        Facebook: <a href="https://www.facebook.com/avakas.net" title="Avakas.net on facebook" target="_blank">Avakas.net</a><br><br>
         <ul class="inline-list right smallText1"> 
           All rights reserved 2014 ©
         </ul></div>

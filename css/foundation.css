@@ -1,3 +1,11 @@
+/* Spiros */
+
+.spacerHomeA {
+	margin-top: -22px;
+	height: -22px;
+}
+/* ---------------- */	
+
 meta.foundation-version {
   font-family: "/5.2.3/"; }
 
@@ -192,6 +200,20 @@ select {
   width: 100%;
   float: left; }
 
+.column.contactmargins,
+.columns.contactmarginsL {
+	padding-left: 0rem;
+	padding-right: 0.1375rem;
+	width: 50%;
+	float: left;
+}
+.column.contactmargins,
+.columns.contactmarginsR {
+	padding-left: 0.1375rem;
+	padding-right: 0rem;
+	width: 50%;
+	float: left;
+}  
 @media only screen {
   .small-push-0 {
     position: relative;
@@ -1202,6 +1224,15 @@ button.small.homepagebutton, .button.small.homepagebutton2 {
 	line-height: 1;
 	margin-top: -22px;
 }
+button.small.homepagebutton3 {
+	padding-top: 22px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	font-size: 1.4rem;
+	line-height: 1;
+	margin-top: -50px;
+}
 button.small2, .button.small2 {
 	padding-top: 15px;
 	padding-right: 10px;
@@ -1300,6 +1331,12 @@ button.small4, .button.small4 {
         color: white; }
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #f04124; }
+
+
+
+
+
+
 
 @media only screen and (min-width: 40.063em) {
   button, .button {
@@ -1991,7 +2028,7 @@ meta.foundation-mq-topbar {
 	border-style: solid;
 	border-width: 0px;
 	border-color: #999999;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	padding: 1.25rem;
 	line-height: 1;
 }
