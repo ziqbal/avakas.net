@@ -556,24 +556,3 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 	text-decoration: none;
 }
 
-
-a {
-	color: #666;
-	text-decoration: none;
-	font-weight: 800;
-}
-a:visited {
-	color: #666;
-	text-decoration: none;
-	font-weight: 800;
-}
-a:hover{
-	color: #43AC6A;
-	text-decoration: none;
-	font-weight: 800;
-}
-a:active {
-	color: #B9242E;
-	text-decoration: none;
-	font-weight: 800;
-}
