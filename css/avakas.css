@@ -530,6 +530,9 @@ subnavbutton2:link, subnavbutton2:hover, subnavbutton2:focus, .subnavbutton2:hov
 .spacerHomeB {
 	height: 22px;
 	}
+.spacerHomeC {
+	height: -22px;
+	}	
 .spacerG {
 	height: 5px;
 	}
