@@ -2029,7 +2029,7 @@ meta.foundation-mq-topbar {
 	border-width: 0px;
 	border-color: #999999;
 	margin-bottom: 5px;
-	padding: 1.25rem;
+	padding: 1.25rem 1.25rem 1.25rem 1.25rem;
 	line-height: 1;
 }
   .panel > :first-child {
