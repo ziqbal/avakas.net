@@ -223,8 +223,8 @@
 	}
 .button.color1:hover, .button.color1:focus, .button[color1]:hover, .button[color1]:focus {
       background-color: #b9242e; }
-.button.color1b:hover, .button.color1:focus, .button[color1]:hover, .button[color1]:focus {
-      background-color: #b9242e; }
+/*.button.color1b:hover, .button.color1:focus, .button[color1]:hover, .button[color1]:focus {
+      background-color: #b9242e; }*/
 .button.color1b {
       background-color: #b9242e; }
 .button.color1c {
