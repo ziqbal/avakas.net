@@ -4,6 +4,10 @@
 	margin-top: -22px;
 	height: -22px;
 }
+.quote p, author p {
+	padding: 0!important;
+	margin: 0!important;
+	}
 /* ---------------- */	
 
 meta.foundation-version {
