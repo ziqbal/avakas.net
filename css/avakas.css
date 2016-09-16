@@ -206,10 +206,11 @@
 	}
 .quote3 {
 	font-weight: 800;
-	font-size: 2em;
+	font-size: 1.em;
 	color: #fff;
 	padding: 0px 0 10px 0;
 	text-align: center;
+	font-size: 2em;
 	}
 .quote3 a:link {
 	color: #fff;
@@ -224,6 +225,29 @@
 	text-decoration: none;
 }
 .quote3 a:active {
+	color: #00a2d9;
+	text-decoration: none;
+}
+.quote4 {
+	font-weight: 800;
+	color: #fff;
+	padding: 0px 0 10px 0;
+	text-align: center;
+	font-size: 1.6em;
+	}
+.quote4 a:link {
+	color: #fff;
+	text-decoration: none;
+}
+.quote4 a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.quote4 a:hover {
+	color: #00a2d9;
+	text-decoration: none;
+}
+.quote4 a:active {
 	color: #00a2d9;
 	text-decoration: none;
 }
