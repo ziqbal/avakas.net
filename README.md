@@ -1,4 +1,4 @@
-avakas.gr
-=========
+avakas.net
+==========
 
-Templates for avakas.gr
+Templates for avakas.net
