@@ -1,0 +1,22 @@
+<?php
+
+$pd = templateViewGet( "page" ) ;
+$md = $pd[ "_metadata_" ] ;
+
+//print_r($pd);
+
+$keywords = $md[ "tags" ] ;
+$description = htmlspecialchars($pd[ "metainfo" ] );
+$description = str_replace(array("\r", "\n"), array(' ', ' '), $description);
+
+if( $keywords == "" ) $keywords = "Άβακας, Avakas.net, Avakas, καθηγητής, πολυτεχνείο, μάθημα, εξάμηνο" ;
+if( $description == "" ) $description = "Ο Άβακας είναι το μεγαλύτερο Δίκτυο παροχής φροντιστηρίων τριτοβάθμιας εκπαίδευσης
+Οι υπηρεσίες που παρέχει αφορούν σε μεγάλη γκάμα μαθημάτων σε όλες τις σχολές των ελληνικών ΑΕΙ και ΤΕΙ.
+Η συνεργασία με τους καθηγητές μπορεί να γίνει υπό τη μορφή ιδιαίτερου μαθήματος, σε γκρουπ ή μέσω διαδικτύου... 6932 322803 (Q-Wind) | 6937 114637 (What's up - Cosmote) | 6986 205464 (CU-Vodafone) | 6986 205464 (WhatsApp App) | Avakas.net (Facebook) | Avakas.net (Skype)" ;
+
+?>
+
+<meta name="Category"       content="company"/>
+<meta name="Subject"        content="Greece, website"/>
+<meta name="Keywords"       content="<?=$keywords?>"/>
+<meta name="Description"    content="<?=$description?>"/>

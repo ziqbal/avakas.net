@@ -2,7 +2,7 @@
 
 // triangleleft, triangleright, pentagon
 
-$__stars[]=array(0,"markers/page.png","Page",1,array("maintitle","shortdescription","longdescription"));
+$__stars[]=array(0,"markers/page.png","Page",1,array("maintitle","metainfo","shortdescription","longdescription"));
 
 $__stars[]=array(100,"markers/star-2.png","Text",1,array("maintitle","shortdescription","longdescription"));
 $__stars[]=array(101,"markers/star-3.png","Image",1,array("maintitle","fuid"));
